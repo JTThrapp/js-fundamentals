@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- CHALLENGE 1: TWO TRUTHS & A LIE 
+    Bronze:
+      Make an h1 tag saying 'Two Truths and a Lie'
+      Make 3 h3 tags, each saying a short blurb about that option (example: 'Been to Russia')
+      Make 3 p tags (one for each h3 tag), giving a short sentence elaborating that truth/lie
+      Wrap it all in a div tag
+    Silver:
+      Using CSS:
+      Make the h1 tag LIGHT GREEN and CENTERED
+      Make each h3 tag BLUE
+      Make each p tag RED
+      Wrap it all in a BORDER that is THICK and BLACK
+    Gold:
+      Curve the corners of that BORDER
+      Give it a BACKGROUND COLOR of GREY
+      Wrap each Truth/Lie in separate divs, give them each a BORDER, curve the BORDER, and make each BACKGROUND COLOR LIGHT GREY
+      CENTER everyting in each div
+      Line each Truth/Lie side-by-side -->
+
+    <div id="truthLieSection">
+        <h1 id="truthLieTitle">Two Truths and a Lie</h1>
+<div class="truthLieContainer">
+    <h3 class="truthOrLie">Broken 9 Bones</h3>
+    <p class="description">I have had many injuries throughout my life, resulting in 9 bones total that have been
+        fractured to some degree.</p>
+</div>
+<div class="truthLieContainer">
+    <h3 class="truthOrLie">Bought Heely's </h3>
+    <p class="description">About a month ago, at the age of 25, I decided I still needed a pair of Heelys so I
+        bought some online. They are awesome.</p>
+</div>
+<div class="truthLieContainer">
+    <h3 class="truthOrLie">Cheeseburgers Over Tacos</h3>
+    <p class="description">Despite eating tons of tacos when I lived down in Austin, I still prefer a nice
+        cheeseburger.</p>
+</div>
+
+</div>
+
+    <style>
+        #truthLieTitle {
+            color: lightgreen;
+            text-align: center;
+        }
+
+        .truthOrLie {
+            color: blue;
+        }
+
+        .description {
+            color: red;
+        }
+
+        #truthLieSection {
+            border: 2px solid black;
+            border-radius: 20px;
+            background-color: lightgrey;
+        }
+        .truthLieContainer {
+            border: 1px solid maroon;
+            border-radius: 5px;
+            background-color: lightskyblue;
+            text-align: center;
+            display: inline-block;
+            width: 32%;
+        }
+    </style>
+</body>
+
+</html>
